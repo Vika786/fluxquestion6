@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: webappserviceq6
+  name: demoservice-q6
 spec:
   type: NodePort
   ports:

@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webapp.q6
+  name: examdemo-q6
   labels:
     app: webapp
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: webapp
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: examdemoq6
-          image: mohammadhani14/examdemo:v1
+          image: gargvika/examdemo:v1
